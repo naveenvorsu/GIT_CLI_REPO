@@ -1,0 +1,32 @@
+
+9:27 AM
+
+S_H_Y_A_M to Everyone
+
+GIT CLI:command line interface
+=======
+1. NAVIGATE TO THE PATH WHERE WE WANT TO COPY THE REPO AND THEN CLONE THE REPOSITORY FROM GITHUB TO LOCAL MACHINE.
+cd D:\AZURE_DEVOPS_TRAINING\GIT
+git clone https://github.com/Shyam2810/GIT_CLI_REPO.git
+
+2. ADD THE REQUIRED FILES MANUALLY IN THE GITHIB FOLDER WHICH IS BEEN CREATED LOCALLY.
+git status
+
+3. I HAVE TO ADD THE NEW FILES ADDED LOCALLY TO THE LIST
+git add filename ==> adding single file to the list
+git add . ==> adding multiple files to the list
+git status
+
+4. I WOULD LIKE TO REMOVE THE FILES FROM THE LIST
+git restore --staged .
+git add .
+git status
+
+5. TO CONFIRM THE LIST 
+git commit -m "NEW CODE ADDED"
+
+6. HOW CAN WE PUSH THE COMMITED CODE
+git push
+
+7. HOW CAN WE PULL THE CODE FROM GITHUB REPOS TO LOCAL AFTER CLONING
+git pull
